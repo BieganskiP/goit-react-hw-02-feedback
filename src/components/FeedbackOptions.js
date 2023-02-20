@@ -1,6 +1,6 @@
 import css from "../app.module.css";
 
-const FeedbackOptions = ({ options, onLeaveFeedback }) => (
+const FeedbackOptions = ({ onLeaveFeedback }) => (
   <div className={css.buttons}>
     <button onClick={() => onLeaveFeedback("good")} className={css.button}>
       Good

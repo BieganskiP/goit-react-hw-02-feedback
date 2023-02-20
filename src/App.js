@@ -35,10 +35,7 @@ class App extends Component {
     return (
       <div className={css.wrapper}>
         <Section title="Leave feedback">
-          <FeedbackOptions
-            options={["good", "neutral", "bad"]}
-            onLeaveFeedback={this.handleFeedback}
-          />
+          <FeedbackOptions onLeaveFeedback={this.handleFeedback} />
         </Section>
         <Section title="Statistics">
           <Statistics
